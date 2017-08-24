@@ -1,0 +1,106 @@
+header {
+	opacity: 1;
+	background-color: rgba(255,255,255,0.8);
+	padding-top: 20px;
+}
+
+.name {
+	opacity: 1;
+	background-color: rgba(200,200,250,1);
+	margin-left: 20px;
+	padding: 0px 40px 0px 40px;
+	float: left;
+}
+
+.title {
+	color: #6666b5;
+}
+
+.image {
+	border: 1px black;
+	position: relative;
+	padding: 0px 10px 10px 0px;
+}
+
+.portfolio {
+	text-align: center;
+}
+
+body {
+	background-image: url(../images/background.jpeg);
+	min-height: 400px;
+	margin-bottom: 100px;
+	clear: both;
+}
+
+nav {
+	text-align: right;
+	margin: 20px 20px 20px 20px;
+	padding-bottom: 30px;
+	width: 80%;
+}
+
+section {
+	position: relative;
+	float: left;
+	width: 50%;
+	padding: 10px 20px 10px 20px;
+	margin-left: 5%;
+	opacity: 1;
+	background-color: rgba(255,255,255,0.8);
+}
+
+h2 {
+	text-align: center;
+}
+
+aside {
+	float: right;
+	text-align: center;
+	width: 33%;
+	opacity: 1;
+	background-color: rgba(255,255,255,0.8);
+	padding-bottom: 20px;
+}
+
+footer {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	opacity: 1;
+	background-color: rgba(255,255,255,0.8);
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: black;
+}
+
+a img:hover {
+	opacity: 0.5;
+}
+
+a img:focus {
+	opacity: 0.5;
+}
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+	
+}
+
+@media screen and (max-width: 640px) {
+	
+}
